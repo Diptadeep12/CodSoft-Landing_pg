@@ -1,0 +1,113 @@
+/* Hero section styles */
+#hero {
+    background-image: url('insurance-image.jpg');
+    background-size: cover;
+    background-position: center bottom; /* Ensure the image's bottom is visible */
+    color: #c77313;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh; /* Adjust the height as needed to show more of the image */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow; /* Change the background color to light yellow */
+}
+/* Header styles */
+header {
+    background-color: #003366;
+    color: #c77313;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the company name */
+.header-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff6600; /* Orange color for the company name */
+}
+
+/* Style for top navigation links */
+.nav-links li a {
+    font-weight: bold; /* Make the links bold */
+    color: #ff6600; /* Set the color to orange */
+}
+/* Main content area background */
+main {
+    background-color: #d0ee65; /* Light lime yellow background color */
+    padding: 60px 0;
+}
+
+/* Service section styles */
+#services {
+    text-align: center;
+}
+
+.service {
+    margin: 20px;
+}
+
+/* About section styles */
+#about {
+    text-align: center;
+}
+
+/* Contact section styles */
+#contact {
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Other section styles */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+section:hover {
+    transform: scale(1.00); /* Apply a zoom-in effect on hover */
+}
+
+/* Footer styles */
+/* Footer styles */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* New image section styles */
+#bottom-image {
+    text-align: center;
+    background-color: #d9f86a;
+    padding: 60px 0;
+    position: relative;
+}
+
+#bottom-image img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+/* New image section styles */
+
+.image-button {
+    position: absolute;
+    top: 50%; /* Center vertically at 50% of the parent element's height */
+    left: 50%; /* Center horizontally at 50% of the parent element's width */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
